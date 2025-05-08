@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  8 MAY 2025 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  9 MAY 2025 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -825,44 +825,35 @@ vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 204.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-60.
+59.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-260.
+259.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-260.
+259.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 260.
+(Font)              <10> on input line 259.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 260.
+(Font)              <7> on input line 259.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 260.
+(Font)              <5> on input line 259.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 373.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 396.
-
-
-
-
-<QR CODE - Taiwan.png, id=8, 111.2958pt x 112.2594pt>
+<QR CODE - Taiwan.png, id=10, 111.2958pt x 112.2594pt>
 File: QR CODE - Taiwan.png Graphic file (type png)
 <use QR CODE - Taiwan.png>
-Package pdftex.def Info: QR CODE - Taiwan.png  used on input line 417.
+Package pdftex.def Info: QR CODE - Taiwan.png  used on input line 405.
 (pdftex.def)             Requested size: 50.05145pt x 50.48541pt.
 [1
 
@@ -875,15 +866,6 @@ Users/nguye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brand
 s0.enc}{C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
 sy.enc}{C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
 it.enc} <./QR CODE - Taiwan.png>]
-
-Package hyperref Warning: Suppressing link with empty target on input line 419.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 447.
-
-
-
 
 [2] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -900,7 +882,7 @@ Here is how much of TeX's memory you used:
  40210 multiletter control sequences out of 15000+600000
  635294 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,389b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,389b,776s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/nguye/App
@@ -915,9 +897,9 @@ pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.
 pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.p
 fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.p
 fb>
-Output written on document.pdf (2 pages, 244317 bytes).
+Output written on document.pdf (2 pages, 250115 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
