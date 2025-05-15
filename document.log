@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  9 MAY 2025 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  16 MAY 2025 01:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,11 +850,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 259.
 
 
-<QR CODE - Taiwan.png, id=10, 111.2958pt x 112.2594pt>
-File: QR CODE - Taiwan.png Graphic file (type png)
-<use QR CODE - Taiwan.png>
-Package pdftex.def Info: QR CODE - Taiwan.png  used on input line 405.
-(pdftex.def)             Requested size: 50.05145pt x 50.48541pt.
 [1
 
 {C:/Users/nguye/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/nguy
@@ -865,7 +860,7 @@ ye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/
 Users/nguye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brand
 s0.enc}{C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
 sy.enc}{C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-math
-it.enc} <./QR CODE - Taiwan.png>]
+it.enc}]
 
 [2] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -876,13 +871,13 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17254 strings out of 473530
- 297867 string characters out of 5714794
- 722710 words of memory out of 5000000
- 40210 multiletter control sequences out of 15000+600000
- 635294 words of font info for 62 fonts, out of 8000000 for 9000
+ 17245 strings out of 473530
+ 297654 string characters out of 5714794
+ 723509 words of memory out of 5000000
+ 40202 multiletter control sequences out of 15000+600000
+ 629182 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,389b,776s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,389b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/nguye/App
@@ -890,16 +885,16 @@ Data/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Sol
 id.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx
 10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx
 12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi
-10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr1
-0.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.
-pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.
-pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.
-pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.p
-fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.p
-fb>
-Output written on document.pdf (2 pages, 250115 bytes).
+10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi
+7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10
+.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.p
+fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.p
+fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pf
+b><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pf
+b>
+Output written on document.pdf (2 pages, 229275 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

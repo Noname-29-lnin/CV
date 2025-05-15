@@ -137,29 +137,29 @@ urlcolor=primaryColor
 %		\LenToUnit{\paperheight-1.0 cm}
 		\LenToUnit{\paperheight-0.5 cm}
 		){\vtop{{\null}\makebox[0pt][c]{
-%					\small\color{gray}\textit{T136-A}\hspace{\widthof{T136-A}}
-					\large\color{black}\textit{T136-A}\hspace{\widthof{T136-A}}
+					\small\color{gray}\textit{VNU-HCMUT}\hspace{\widthof{VNU-HCMUT}}
+%					\large\color{black}\textit{T136-A}\hspace{\widthof{T136-A}}
 		}}}%
 	}%
-	\AddToShipoutPictureFG*{% Add <stuff> to current page foreground
-		\put(
-		\LenToUnit{\paperwidth-4 cm-0.01 cm+0.01cm},
-		%		\LenToUnit{\paperheight-1.0 cm}
-		\LenToUnit{\paperheight-3 cm}
-		){
-			\includegraphics[width=.1\textwidth]{QR CODE - Taiwan.png}	
-		}%
-	}%
-	\AddToShipoutPictureFG*{% Add <stuff> to current page foreground
-		\put(
-		\LenToUnit{\paperwidth-2 cm - 14 cm + 0.05cm},
-		%		\LenToUnit{\paperheight-1.0 cm}
-		\LenToUnit{\paperheight-0.5 cm}
-		){\vtop{{\null}\makebox[0pt][c]{
-					%					\small\color{gray}\textit{T136-A}\hspace{\widthof{T136-A}}
-					\large\color{gray}\textit{2025 Taiwan Semiconductor Job and Study Fair}
-		}}}%
-	}%
+%	\AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+%		\put(
+%		\LenToUnit{\paperwidth-4 cm-0.01 cm+0.01cm},
+%		%		\LenToUnit{\paperheight-1.0 cm}
+%		\LenToUnit{\paperheight-3 cm}
+%		){
+%			\includegraphics[width=.1\textwidth]{QR CODE - Taiwan.png}	
+%		}%
+%	}%
+%	\AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+%		\put(
+%		\LenToUnit{\paperwidth-2 cm - 13 cm + 0.05cm},
+%		%		\LenToUnit{\paperheight-1.0 cm}
+%		\LenToUnit{\paperheight-0.5 cm}
+%		){\vtop{{\null}\makebox[0pt][c]{
+%					%					\small\color{gray}\textit{T136-A}\hspace{\widthof{T136-A}}
+%					\large\color{gray}\textit{CÔNG TY TNHH BOS SEMICONDUCTORS VIETNAM}
+%		}}}%
+%	}%
 }%
 
 % save the original href command in a new command:
@@ -383,29 +383,47 @@ urlcolor=primaryColor
 		\end{highlights}
 	\end{onecolentry}
 	
+	\vspace{0.2 cm}  
+	
+	\begin{twocolentry}{  
+			\textit{}  
+		}  
+		\textbf{Design a combination circuit: A 1-bit Full Adder}  
+	\end{twocolentry}  
+	
+	\vspace{0.10 cm}  
+	\begin{onecolentry}  
+		\begin{highlights}  
+			\item Use Virtuoso to layout a 1-bit Full Adder circuit using different approaches, such as the basic logic circuit of the FA: \( S = A \oplus B \oplus C_{in} \), \( C_{out} = (A \oplus B)C_{in} + AB \), as well as the 28T Full Adder structure and the 24Y Full Adder using Mirro adder.  
+			\item Tools \& Language:  
+				\begin{itemize}[label=-]  
+					\item Tool: Virtuoso.  
+				\end{itemize}  
+		\end{highlights}  
+	\end{onecolentry}
+	
 	
 	\vspace{0.2 cm}
 	
 	\begin{twocolentry}{
-			
-			
-			\textit{\href{https://github.com/Noname-29-lnin/Single-Cycle-RISC-V.git}{Noname-29-lnin\\/Single-Cycle-RISC-V}}}
-		\textbf{ Design of a Single Cycle RISC-V Processor}
+		
+		
+		\textit{\href{https://github.com/Noname-29-lnin/Single-Cycle-RISC-V.git}{Noname-29-lnin\\/Single-Cycle-RISC-V}}}
+	\textbf{ Design of a Single Cycle RISC-V Processor}
 	\end{twocolentry}
 	
 	\vspace{0.10 cm}
 	\begin{onecolentry}
-		\begin{highlights}
-			\item Asingle-cycle implementation of the RISC-V RV32I instruction set architecture (ISA), designed from scratch in SystemVerilog. This project demonstrates the core principles of CPU microarchitecture, including instruction fetch, decode, execution, memory access, and writeback stages—all completed within a single clock	cycle.
-			\item Tools \& Lauguage:
-			\begin{itemize}[label=-]
-				\item Simulation: Xcelium.
-				\item Synthesis: Intel Quartus Prime.
-				\item Language: SystemVerilog.
-			\end{itemize}
-		\end{highlights}
+	\begin{highlights}
+		\item Asingle-cycle implementation of the RISC-V RV32I instruction set architecture (ISA), designed from scratch in SystemVerilog. This project demonstrates the core principles of CPU microarchitecture, including instruction fetch, decode, execution, memory access, and writeback stages—all completed within a single clock	cycle.
+		\item Tools \& Lauguage:
+		\begin{itemize}[label=-]
+			\item Simulation: Xcelium.
+			\item Synthesis: Intel Quartus Prime.
+			\item Language: SystemVerilog.
+		\end{itemize}
+	\end{highlights}
 	\end{onecolentry}
-	
 	
 	\vspace{0.2 cm}
 	
