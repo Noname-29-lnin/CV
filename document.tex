@@ -1,4 +1,4 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[11pt, letterpaper]{article}
 %\usepackage[utf8]{vietnam}
 % Packages:
 \usepackage[
@@ -36,6 +36,9 @@ urlcolor=primaryColor
 \usepackage{iftex} % check if engine is pdflatex, xetex or luatex
 
 \usepackage{graphicx}
+
+\usepackage{setspace}
+\onehalfspacing
 
 % Ensure that generate pdf is machine readable/ATS parsable:
 \ifPDFTeX
@@ -246,7 +249,7 @@ urlcolor=primaryColor
 	\section{Education}
 
 	\begin{twocolentry}{		
-		\textit{Oct 2022 – Present ReNov 2026}}
+		\textit{Oct 2022 – Present}}
 		\textbf{VNU - Ho Chi Minh City University of Technology}
 		
 		\textit{Bachelor of Science in Electronics Engineering}
@@ -256,7 +259,7 @@ urlcolor=primaryColor
 	
 	\begin{onecolentry}
 		\begin{highlights}
-			\item GPA: 3.0/4.0 (\href{https://drive.google.com/file/d/1M4nu1HpY_ZwvRe3yADx4HzPJ7OOggST8/view?usp=sharing}{This link})
+			\item \textbf{GPA:} 3.0/4.0 (\href{https://drive.google.com/file/d/1M4nu1HpY_ZwvRe3yADx4HzPJ7OOggST8/view?usp=sharing}{This link})
 %			\item GPA: 3.0/4.0 (\href{https://drive.google.com}{This link})
 			\item \textbf{Project 1:} Design and Implementation Viterbi Decoder Algorithm on FPGA. 
 		\end{highlights}
@@ -373,13 +376,16 @@ urlcolor=primaryColor
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\begin{highlights}
-			\item This project involves the hardware design and implementation of a Viterbi decoder for convolutional codes	with parameters ($3, 1, 2$) (constraint length $K=3$, code rate $1/2$) on an FPGA. The Viterbi algorithm is optimized for error correction in noisy communication channels, leveraging trellis-based path metrics and survivor path selection.
-			\item Tools \& Lauguage:
-				\begin{itemize}[label=-]
-					\item Simulation: Verilator, GTKwave.
-					\item Synthesis: Intel Quartus Prime.
-					\item Language: C, SystemVerilog.
-				\end{itemize}
+%			\item This project involves the hardware design and implementation of a Viterbi decoder for convolutional codes	with parameters ($3, 1, 2$) (constraint length $K=3$, code rate $1/2$) on an FPGA. The Viterbi algorithm is optimized for error correction in noisy communication channels, leveraging trellis-based path metrics and survivor path selection. Và để thực hiện việc test bench cho bộ trên thì sử dụng thêm các bộ như PISO, SIPO, LCD IP (giúp điều khiển bộ LCD thông qua phần cứng) để có thể thực hiện các chức năng cụ bộ giải mã Viterbi trên.
+			\item This project involves the design and implementation of a \textbf{Viterbi decoder} for convolutional codes with parameters $(3, 1, 2)$ (constraint length $K=3$, code rate $1/2$) on an FPGA. The Viterbi algorithm is optimized for error correction in noisy communication channels, leveraging trellis-based path metrics and survivor path selection. The decoder is structured using key functional blocks, including the \textit{Branch Metric Unit (BMU)}, \textit{Add-Compare-Select Unit (ACSU)}, \textit{Path Metric Unit (PMU)}, and \textit{Survivor Path Memory Unit (SPMU)}.
+			
+			\item To test the decoder, additional modules such as a \textit{Parallel-In-Serial-Out (PISO)} register, \textit{Serial-In-Parallel-Out (SIPO)} register, and \textit{LCD IP core} (for hardware-based LCD control) are integrated. These components enable practical verification of the Viterbi decoder's functionality. The final implementation is deployed on a \textit{DE2 development kit}, where the design is synthesized and programmed onto the FPGA for real-world validation.
+%			\item Tools \& Lauguage:
+%				\begin{itemize}[label=-]
+%					\item Simulation: Verilator, GTKwave.
+%					\item Synthesis: Intel Quartus Prime.
+%					\item Language: C, SystemVerilog.
+%				\end{itemize}
 		\end{highlights}
 	\end{onecolentry}
 	
@@ -395,10 +401,10 @@ urlcolor=primaryColor
 	\begin{onecolentry}  
 		\begin{highlights}  
 			\item Use Virtuoso to layout a 1-bit Full Adder circuit using different approaches, such as the basic logic circuit of the FA: \( S = A \oplus B \oplus C_{in} \), \( C_{out} = (A \oplus B)C_{in} + AB \), as well as the 28T Full Adder structure and the 24Y Full Adder using Mirro adder.  
-			\item Tools \& Language:  
-				\begin{itemize}[label=-]  
-					\item Tool: Virtuoso.  
-				\end{itemize}  
+%			\item Tools \& Language:  
+%				\begin{itemize}[label=-]  
+%					\item Tool: Virtuoso.  
+%				\end{itemize}  
 		\end{highlights}  
 	\end{onecolentry}
 	
@@ -416,12 +422,12 @@ urlcolor=primaryColor
 	\begin{onecolentry}
 	\begin{highlights}
 		\item Asingle-cycle implementation of the RISC-V RV32I instruction set architecture (ISA), designed from scratch in SystemVerilog. This project demonstrates the core principles of CPU microarchitecture, including instruction fetch, decode, execution, memory access, and writeback stages—all completed within a single clock	cycle.
-		\item Tools \& Lauguage:
-		\begin{itemize}[label=-]
-			\item Simulation: Xcelium.
-			\item Synthesis: Intel Quartus Prime.
-			\item Language: SystemVerilog.
-		\end{itemize}
+%		\item Tools \& Lauguage:
+%		\begin{itemize}[label=-]
+%			\item Simulation: Xcelium.
+%			\item Synthesis: Intel Quartus Prime.
+%			\item Language: SystemVerilog.
+%		\end{itemize}
 	\end{highlights}
 	\end{onecolentry}
 	
@@ -444,12 +450,12 @@ urlcolor=primaryColor
 					\item Carry Select Adder (CSA)
 					\item Carry Skip Adder (CSKA)
 				\end{itemize}
-			\item Tools \& Lauguage:
-				\begin{itemize}[label=-]
-					\item Simulation: Verilator.
-					\item Synthesis: Intel Quartus Prime.
-					\item Language: Verilog, C++.
-				\end{itemize}
+%			\item Tools \& Lauguage:
+%				\begin{itemize}[label=-]
+%					\item Simulation: Verilator.
+%					\item Synthesis: Intel Quartus Prime.
+%					\item Language: Verilog, C++.
+%				\end{itemize}
 		\end{highlights}
 	\end{onecolentry}
 	

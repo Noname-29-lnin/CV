@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  16 MAY 2025 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.10)  27 MAY 2025 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
 \c@section=\count197
@@ -446,6 +446,9 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 \Gin@req@height=\dimen185
 \Gin@req@width=\dimen186
 )
+(C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode
 .tex) (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -702,7 +705,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-72.
+75.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -716,32 +719,32 @@ File: t5lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 172.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 175.
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 17
-2.
+5.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    ... okay on input line 175.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -764,10 +767,10 @@ LaTeX Font Info:    ... okay on input line 172.
 * \headsep=25.0pt
 * \topskip=0.0pt
 * \footskip=28.45274pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
 * \columnsep=0.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -803,51 +806,51 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 172.
+Package hyperref Info: Link coloring ON on input line 175.
 \ANDbox=\box66
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 188.
+nput line 191.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 192.
+nput line 195.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 204.
+ input line 207.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 204.
+n input line 207.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-59.
+62.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-259.
+262.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-259.
+262.
 
 (C:\Users\nguye\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 259.
+(Font)              <10.95> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 259.
+(Font)              <8> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 259.
+(Font)              <6> on input line 262.
 
 
 [1
@@ -871,13 +874,13 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17245 strings out of 473530
- 297654 string characters out of 5714794
- 723509 words of memory out of 5000000
- 40202 multiletter control sequences out of 15000+600000
- 629182 words of font info for 61 fonts, out of 8000000 for 9000
+ 17290 strings out of 473530
+ 298663 string characters out of 5714794
+ 717953 words of memory out of 5000000
+ 40245 multiletter control sequences out of 15000+600000
+ 629497 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,389b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,627b,677s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/nguye/App
@@ -886,15 +889,14 @@ id.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx
 10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx
 12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi
 10.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi
-7.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10
-.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.p
+8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10
+.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.p
 fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.p
-fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pf
-b><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pf
-b>
-Output written on document.pdf (2 pages, 229275 bytes).
+fb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.p
+fb>
+Output written on document.pdf (2 pages, 218495 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
