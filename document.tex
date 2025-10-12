@@ -213,39 +213,6 @@ urlcolor=primaryColor
 	
 	\vspace{0.3 cm - 0.3 cm}
 	
-	
-%	\section{Introduction}
-%	
-%	\begin{onecolentry}
-%		Noi gi do ve ban than.
-%	\end{onecolentry}
-	
-%	\vspace{0.2 cm}
-%	
-%	\begin{onecolentry}
-%		The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
-%	\end{onecolentry}
-%	
-%	
-	
-%	\section{Quick Guide}
-%	
-%	\begin{onecolentry}
-%		\begin{highlightsforbulletentries}
-%			
-%			
-%			\item Each section title is arbitrary and each section contains a list of entries.
-%			
-%			\item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
-%			
-%			\item Select a section title, pick an entry type, and start writing your section!
-%			
-%			\item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
-%			
-%			
-%		\end{highlightsforbulletentries}
-%	\end{onecolentry}
-	
 	\section{Education}
 
 	\begin{twocolentry}{		
@@ -260,8 +227,8 @@ urlcolor=primaryColor
 	\begin{onecolentry}
 		\begin{highlights}
 			\item \textbf{GPA:} 3.1/4.0 (\href{https://drive.google.com/file/d/1sb2J1YBmrNl3UVzjrR989TmBaZsz9ee0/view?usp=sharing}{This link})
-%			\item GPA: 3.0/4.0 (\href{https://drive.google.com}{This link})
-			\item \textbf{Project 1:} Design and Implementation Viterbi Decoder Algorithm on FPGA. 
+			\item \textbf{Project 1:} Design and Implementation Viterbi Decoder Algorithm on FPGA.
+			\item \textbf{Project 2:} FPGA-Based Sorting Using Independent Subarrays of Approximately Equal Length.
 		\end{highlights}
 	\end{onecolentry}
 	
@@ -316,30 +283,6 @@ urlcolor=primaryColor
 %		\end{highlights}
 %	\end{onecolentry}
 %	
-%	
-%	
-%	
-%	\section{Publications}
-%	
-%	\begin{samepage}
-%		\begin{twocolentry}{
-%				Jan 2004
-%			}
-%			\textbf{3D Finite Element Analysis of No-Insulation Coils}
-%			
-%			\vspace{0.10 cm}
-%			
-%			\mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
-%		\end{twocolentry}
-%		
-%		
-%		\vspace{0.10 cm}
-%		
-%		\begin{onecolentry}
-%			\href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
-%		\end{onecolentry}
-%	\end{samepage}
-
 	\section{Technical Skill}
 	
 	\vspace{0.10 cm}
@@ -376,126 +319,34 @@ urlcolor=primaryColor
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\begin{highlights}
-%			\item This project involves the hardware design and implementation of a Viterbi decoder for convolutional codes	with parameters ($3, 1, 2$) (constraint length $K=3$, code rate $1/2$) on an FPGA. The Viterbi algorithm is optimized for error correction in noisy communication channels, leveraging trellis-based path metrics and survivor path selection. Và để thực hiện việc test bench cho bộ trên thì sử dụng thêm các bộ như PISO, SIPO, LCD IP (giúp điều khiển bộ LCD thông qua phần cứng) để có thể thực hiện các chức năng cụ bộ giải mã Viterbi trên.
 			\item This project involves the design and implementation of a \textbf{Viterbi decoder} for convolutional codes with parameters $(3, 1, 2)$ (constraint length $K=3$, code rate $1/2$) on an FPGA. The Viterbi algorithm is optimized for error correction in noisy communication channels, leveraging trellis-based path metrics and survivor path selection. The decoder is structured using key functional blocks, including the \textit{Branch Metric Unit (BMU)}, \textit{Add-Compare-Select Unit (ACSU)}, \textit{Path Metric Unit (PMU)}, and \textit{Survivor Path Memory Unit (SPMU)}.
 			
 			\item To test the decoder, additional modules such as a \textit{Parallel-In-Serial-Out (PISO)} register, \textit{Serial-In-Parallel-Out (SIPO)} register, and \textit{LCD IP core} (for hardware-based LCD control) are integrated. These components enable practical verification of the Viterbi decoder's functionality. The final implementation is deployed on a \textit{DE2 development kit}, where the design is synthesized and programmed onto the FPGA for real-world validation.
-%			\item Tools \& Lauguage:
-%				\begin{itemize}[label=-]
-%					\item Simulation: Verilator, GTKwave.
-%					\item Synthesis: Intel Quartus Prime.
-%					\item Language: C, SystemVerilog.
-%				\end{itemize}
-		\end{highlights}
-	\end{onecolentry}
-	
-	\vspace{0.2 cm}  
-	
-	\begin{twocolentry}{  
-			\textit{}  
-		}  
-		\textbf{Design a combination circuit: A 1-bit Full Adder}  
-	\end{twocolentry}  
-	
-	\vspace{0.10 cm}  
-	\begin{onecolentry}  
-		\begin{highlights}  
-			\item Use Virtuoso to layout a 1-bit Full Adder circuit using different approaches, such as the basic logic circuit of the FA: \( S = A \oplus B \oplus C_{in} \), \( C_{out} = (A \oplus B)C_{in} + AB \), as well as the 28T Full Adder structure and the 24Y Full Adder using Mirro adder.  
-%			\item Tools \& Language:  
-%				\begin{itemize}[label=-]  
-%					\item Tool: Virtuoso.  
-%				\end{itemize}  
-		\end{highlights}  
-	\end{onecolentry}
-	
-	
-	\vspace{0.2 cm}
-	
-	\begin{twocolentry}{
-		
-		
-		\textit{\href{https://github.com/Noname-29-lnin/Single-Cycle-RISC-V.git}{Noname-29-lnin\\/Single-Cycle-RISC-V}}}
-	\textbf{ Design of a Single Cycle RISC-V Processor}
-	\end{twocolentry}
-	
-	\vspace{0.10 cm}
-	\begin{onecolentry}
-	\begin{highlights}
-		\item Asingle-cycle implementation of the RISC-V RV32I instruction set architecture (ISA), designed from scratch in SystemVerilog. This project demonstrates the core principles of CPU microarchitecture, including instruction fetch, decode, execution, memory access, and writeback stages—all completed within a single clock	cycle.
-%		\item Tools \& Lauguage:
-%		\begin{itemize}[label=-]
-%			\item Simulation: Xcelium.
-%			\item Synthesis: Intel Quartus Prime.
-%			\item Language: SystemVerilog.
-%		\end{itemize}
-	\end{highlights}
-	\end{onecolentry}
-	
-	\vspace{0.2 cm}
-	
-	\begin{twocolentry}{
-		
-		
-		\textit{\href{https://github.com/Noname-29-lnin/Adder_32bit.git}{Noname-29-lnin\\/Adder\_32bit}}}
-		\textbf{Design Adder 32-bit using Verilog}
-	\end{twocolentry}
-	
-	\vspace{0.10 cm}
-	\begin{onecolentry}
-		\begin{highlights}
-			\item  Acomprehensive implementation and comparison of four classic 32-bit adder architectures in Verilog, analyzing the trade-offs between speed, area, and power consumption. Implementation Architecture:
-				\begin{itemize}[label=-]
-					\item Carry Ripple Adder (CRA)
-					\item Carry Lookahead Adder (CLA)
-					\item Carry Select Adder (CSA)
-					\item Carry Skip Adder (CSKA)
-				\end{itemize}
-%			\item Tools \& Lauguage:
-%				\begin{itemize}[label=-]
-%					\item Simulation: Verilator.
-%					\item Synthesis: Intel Quartus Prime.
-%					\item Language: Verilog, C++.
-%				\end{itemize}
-		\end{highlights}
-	\end{onecolentry}
-	
-	\vspace{0.2 cm}
-	
-	\begin{twocolentry}{
-			
-			
-			\textit{\href{https://github.com/Noname-29-lnin/OSC_project.git}{Noname-29-lnin\\/OSC\_project}}}
-		\textbf{Design of a DC/AC Voltage measurement and waveform display device using STM32F1xx}
-	\end{twocolentry}
-	
-	\vspace{0.10 cm}
-	\begin{onecolentry}
-		\begin{highlights}
-			\item  An embedded measurement system using STM32F1xx microcontroller for accurate voltage acquisition and real-time waveform display on PC, implementing core functionalities of a basic oscilloscope.
 			\item Tools \& Lauguage:
+				\begin{itemize}[label=-]
+					\item Simulation: Verilator, GTKwave.
+					\item Synthesis: Intel Quartus Prime.
+					\item Language: C, SystemVerilog.
+				\end{itemize}
+		\end{highlights}
+	\end{onecolentry}
+	
+	\begin{twocolentry}{
+			\textit{\href{https://github.com/Noname-29-lnin/DO_TT.git}{Noname-29-lnin \\ /DO\_TT}}}
+		\textbf{FPGA-Based Sorting Using Independent Subarrays of Approximately Equal Length}
+	\end{twocolentry}
+	\vspace{0.10 cm}
+	\begin{onecolentry}
+		\begin{highlights}
+			\item Designed and implemented the hardware architecture for a high-throughput sorting framework, based on the research \emph{"A General Framework for Sorting Large Data Sets Using Independent Subarrays of Approximately Equal Length"}.
+			\item The RTL implementation targets performance optimization for large-scale datasets (from $2^{18}$ to $2^{20}$+ elements), supporting multiple data types.
+			\item Engineered the core processing unit to handle independent subarrays, optimizing for either area (serial processing) or throughput (parallel processing) to balance resource utilization and sorting speed on the FPGA.
+			\item \textbf{Tools \& Technologies:}
 			\begin{itemize}[label=-]
-				\item Tool used: KiCad, Keil-C, STM32CubeMX, Proteus 8, ST-Link programmer.
-				\item Language: C, Python.
+				\item \textbf{Simulation:} Verilator, QuestaSim, GTKWave.
+				\item \textbf{Synthesis \& Implementation:} Intel Quartus Prime.
+				\item \textbf{Languages:} SystemVerilog (RTL Design), C++, Python.
 			\end{itemize}
 		\end{highlights}
 	\end{onecolentry}
-	
-%	\section{Technologies}
-%	
-%	
-%	
-%	
-%	\begin{onecolentry}
-%		\textbf{Languages:} C++, C, Java, Objective-C, C\#, SQL, JavaScript
-%	\end{onecolentry}
-%	
-%	\vspace{0.2 cm}
-%	
-%	\begin{onecolentry}
-%		\textbf{Technologies:} .NET, Microsoft SQL Server, XCode, Interface Builder
-%	\end{onecolentry}
-	
-	
-	
-	
 \end{document}
