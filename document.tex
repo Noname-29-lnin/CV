@@ -237,7 +237,7 @@ urlcolor=primaryColor
 	\section{Research Interest}
 		
 	\begin{onecolentry}
-		Computer Architecture, RISC-V Processors, Hardware Accelerato, Digital IC Design.
+		Computer Architecture, RISC-V Processors, Hardware Accelerato, Digital IC Design, DSP on FPGA, Applied Electronics.
 	\end{onecolentry}
 	
 	
@@ -289,22 +289,25 @@ urlcolor=primaryColor
 	\vspace{0.10 cm}
 	\begin{onecolentry}
 		\begin{highlights}
-			\item Programming Language \& HDL:
+			\item \textbf{Languages \& Technologies:}
 				\begin{itemize}[label=+]
-					\item Proficient: C, C++, SystemVerilog, Verilog.
-					\item Scripting \& Documentation: \LaTeX, Bash.
-					\item Tools: Vim, GIT, Makefile.
+					\item \textbf{Hardware Description (HDL):} SystemVerilog, Verilog.
+					\item \textbf{Software Languages:} C, C++.
+					\item \textbf{Scripting \& Automation:} TCL, Bash, Makefile.
+					\item \textbf{Tools \& Version Control:} Git, Neovim, \LaTeX.
 				\end{itemize}
-			\item Development Environments:
+			\item \textbf{EDA Tools \& Environments:}
 				\begin{itemize}[label=+]
-					\item Operating Systems: Linux (Ubuntu, CentOS), Windows.
-					\item FPGA Tools: Intel Quartus, QuestaSim, ModelSim, Verilator, Virtuoso, Xcelium. 
+					\item \textbf{Simulation \& Verification:} Cadence Xcelium, Siemens QuestaSim, ModelSim, Verilator.
+					\item \textbf{Synthesis \& Implementation:} Cadence Genus, Yosys, Intel Quartus (FPGA).
+					\item \textbf{Custom IC/Layout:} Cadence Virtuoso.
+					\item \textbf{Operating Systems:} Linux (Ubuntu, CentOS), Windows.
 				\end{itemize}
-			\item Hardware Skills:
+			\item \textbf{Hardware Skills:}
 				\begin{itemize}[label=+]
-					\item Digital Design: RTL development, Verification.
-					\item PCB Design: KiCad, Alitium (Basic).
-					\item Lab Equipment: Oscilloscope, Logic Analyzers.
+					\item \textbf{Digital Design:} RTL development, FPGA Prototyping, Verification.
+					\item \textbf{PCB Design:} KiCad, Altium Designer (Basic).
+					\item \textbf{Lab Equipment:} Oscilloscope, Logic Analyzers.
 				\end{itemize}
 		\end{highlights}
 	\end{onecolentry}
@@ -323,11 +326,11 @@ urlcolor=primaryColor
 			\item This project involves the design and implementation of a \textbf{Viterbi decoder} for convolutional codes with parameters $(3, 1, 2)$ (constraint length $K=3$, code rate $1/2$) on an FPGA. The Viterbi algorithm is optimized for error correction in noisy communication channels, leveraging trellis-based path metrics and survivor path selection. The decoder is structured using key functional blocks, including the \textit{Branch Metric Unit (BMU)}, \textit{Add-Compare-Select Unit (ACSU)}, \textit{Path Metric Unit (PMU)}, and \textit{Survivor Path Memory Unit (SPMU)}.
 			
 			\item To test the decoder, additional modules such as a \textit{Parallel-In-Serial-Out (PISO)} register, \textit{Serial-In-Parallel-Out (SIPO)} register, and \textit{LCD IP core} (for hardware-based LCD control) are integrated. These components enable practical verification of the Viterbi decoder's functionality. The final implementation is deployed on a \textit{DE2 development kit}, where the design is synthesized and programmed onto the FPGA for real-world validation.
-			\item Tools \& Lauguage:
+			\item \textbf{Tools \& Lauguage:}
 				\begin{itemize}[label=-]
-					\item Simulation: Verilator, GTKwave.
-					\item Synthesis: Intel Quartus Prime.
-					\item Language: C, SystemVerilog.
+					\item \textbf{Simulation:} Verilator, GTKwave.
+					\item \textbf{Implementation:} Intel Quartus Prime.
+					\item \textbf{Language:} SystemVerilog, C.
 				\end{itemize}
 		\end{highlights}
 	\end{onecolentry}
@@ -340,18 +343,18 @@ urlcolor=primaryColor
 	\begin{onecolentry}
 		\begin{highlights}
 			\item Designed and implemented the hardware architecture for a high-throughput sorting framework, based on the research \emph{"A General Framework for Sorting Large Data Sets Using Independent Subarrays of Approximately Equal Length"}.
-			\item The RTL implementation targets performance optimization for large-scale datasets (from $2^{18}$ to $2^{20}$+ elements), supporting multiple data types.
+			\item The RTL implementation targets performance optimization for large-scale datasets (from $2^{18}$ to $2^{32}$+ elements), supporting multiple data types.
 			\item Engineered the core processing unit to handle independent subarrays, optimizing for either area (serial processing) or throughput (parallel processing) to balance resource utilization and sorting speed on the FPGA.
 			\item \textbf{Tools \& Technologies:}
 			\begin{itemize}[label=-]
-				\item \textbf{Simulation:} Verilator, QuestaSim, GTKWave.
-				\item \textbf{Synthesis \& Implementation:} Intel Quartus Prime.
-				\item \textbf{Languages:} SystemVerilog (RTL Design), C++, Python.
+				\item \textbf{Simulation:} QuestaSim, Xcelium, Simvision.
+				\item \textbf{Synthesis \& Implementation:} Intel Quartus Prime, Genus.
+				\item \textbf{Languages:} SystemVerilog, C++, Python.
 			\end{itemize}
 		\end{highlights}
 	\end{onecolentry}
 	
-	\section{Another Projects}
+	\section{Other Projects}
 	
 	\begin{twocolentry}{
 			\textit{\href{https://github.com/Noname-29-lnin/Floating_point}{Noname-29-lnin \\ /FPU\_IEEE754-45nm}}}
